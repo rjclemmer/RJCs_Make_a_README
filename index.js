@@ -4,6 +4,7 @@ const fs = require('fs');
 
 //arrow function to validate response
 const validateInput = (nameInput) => nameInput ? true : (console.log("Please enter a value"), false);
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -71,7 +72,10 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, JSON.stringify(data), (err) => 
+    err ? console.error(err) : console.log('You made a README!')
+)};
 
 // TODO: Create a function to initialize app
 function init() {
@@ -79,7 +83,8 @@ function init() {
 
 //console logs input
     .then((data) => {
-        console.log(data)
+        writeToFile('yourREADME.md', data);
+        console.log(data);
     });
     
 }
