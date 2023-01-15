@@ -47,17 +47,17 @@ const questions = [
         validate: (nameInput) =>
         nameInput ? true : (console.log("Please enter a value"), false),
     },
-    {
+    {/////keep editing here
         type: 'input',
-        message: 'What problem does it solve?',
-        name: 'description3',
+        message: 'Provide instructions and examples for use.',
+        name: 'usage',
         validate: (nameInput) =>
         nameInput ? true : (console.log("Please enter a value"), false),
     },
     {
         type: 'input',
-        message: 'What problem does it solve?',
-        name: 'description3',
+        message: 'List any collaborators, third-party assets that require attribution, or tutorials that you followed.',
+        name: 'credits',
         validate: (nameInput) =>
         nameInput ? true : (console.log("Please enter a value"), false),
     },
@@ -69,9 +69,10 @@ const questions = [
       nameInput ? true : (console.log("Please enter a value"), false),
   },
   {
-      type: 'input',
-      message: 'What problem does it solve?',
-      name: 'description3',
+      type: 'list',
+      message: 'Choose a software license for this project',
+      name: 'license',
+      choices: ['MIT', 'Apache 2.0', 'GPL v3', 'ISC', 'None'],
       validate: (nameInput) =>
       nameInput ? true : (console.log("Please enter a value"), false),
   },
@@ -79,11 +80,17 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions);
+    inquirer.prompt(questions)
+
+//console logs input
+    .then((data) => {
+        console.log(data)
+    });
+    
 }
 
 // Function call to initialize app
