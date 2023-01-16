@@ -1,1 +1,26 @@
-{"username":"Rob","projectTitle":"Bob","description1":"Slob","description2":"Cob","description3":"Mob","installation":"QOUB","usage":"PLOB","credits":"STOB","license":"MIT"}
+# Poop
+
+## Description
+Droop
+Sloop
+Stoop
+
+
+## Installation
+NPM I
+
+          
+
+## Usage
+node index.js
+
+
+## Credits
+miniproject
+
+
+## License
+MIT
+
+## made by RJC
+

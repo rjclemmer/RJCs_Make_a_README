@@ -2,6 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+const generateMarkdown = require('./utils/generateMarkdown.js')
+
 //arrow function to validate response
 const validateInput = (nameInput) => nameInput ? true : (console.log("Please enter a value"), false);
 
@@ -73,7 +75,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, JSON.stringify(data), (err) => 
+    fs.writeFile(fileName, data, (err) => 
     err ? console.error(err) : console.log('You made a README!')
 )};
 
@@ -83,7 +85,8 @@ function init() {
 
 //console logs input
     .then((data) => {
-        writeToFile('yourREADME.md', data);
+        writeToFile('yourREADME.md', generateMarkdown(data));
+        
         console.log(data);
     });
     
