@@ -1,5 +1,7 @@
 My README to help explain how this all works ...
 
+license
+![badge](https://img.shields.io/badge/License-MIT-yellow)
 
 # 09 Node.js Challenge: Professional README Generator
 
