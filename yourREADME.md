@@ -1,26 +1,28 @@
-# Poop
+# d
 
 ## Description
-Droop
-Sloop
-Stoop
+d
+d
+d
 
 
 ## Installation
-NPM I
+d
 
           
 
 ## Usage
-node index.js
+d
 
 
 ## Credits
-miniproject
+d
 
 
 ## License
-MIT
+MIT 
+renderLicenseBadge(data.license);
 
-## made by RJC
+
+## made by dd
 
