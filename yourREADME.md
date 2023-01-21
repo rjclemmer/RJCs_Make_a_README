@@ -1,23 +1,25 @@
- # RJCs Make A README## Description
-To hone my skills by creating a program that would make it easy to generate a README file.
-I am learning back end skills.
-Users are able to install the program and quickly generate a README file.
+ # RJCS MAKE A README
+
+## Description
+HONING MY BACKEND SKILLS
+TO QUICKLY MAKE READMES
+IT CAN QUICKLY PUT A README TOGETHER
 
 
 ## Installation
-After cloning the repo, a user must install the package with npm install
+NPM I
 
          
 
 ## Usage
-After installation, a user can navigate to an integrated terminal and run the program with node .index.js/
+NODE INDEX.JS
 
 
 ## Credits
-I used the mini project as a template.
+MY MINIPORJECT NOTES
 
 
 
 ## License
 None
- ## made by rjclemmer
+undefined## made by RJCLEMMER

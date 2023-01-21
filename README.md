@@ -3,7 +3,7 @@ My README to help explain how this all works ...
 license
 ![badge](https://img.shields.io/badge/License-MIT-yellow)
 
-# 09 Node.js Challenge: Professional README Generator
+# RJC's_Make_a_README
 
 ## Your Task
 
@@ -18,8 +18,9 @@ The application will be invoked by using the following command:
 ```bash
 node index.js
 ```
+## Screencastify Link
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
+https://drive.google.com/file/d/1gK4q50WPKGcgJ4ocM2stlqzAG5DKkPe4/view
 
 
 ## User Story

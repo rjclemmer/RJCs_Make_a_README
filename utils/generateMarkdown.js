@@ -1,43 +1,41 @@
-// switch(operation) {
-//   case 'sum':
-//       console.log(maths.sum(numOne, numTwo));
-//       break;
-//   case 'difference':
-//       console.log(maths.difference(numOne, numTwo));
-//       break;
-//   case 'product':
-//       console.log(maths.product(numOne, numTwo));
-//       break;
-//   case 'quotient':
-//       console.log(maths.quotient(numOne, numTwo));
-//       break;
-//   default:
-//       console.log("Check your math!");
-// }
+// const licenseAll= {
+  
+//    MIT : {
+//       badge : '![badge](https://img.shields.io/badge/License-MIT-yellow)\n'
+//    },
+//    Apache : {
+//       badge : '![badge](https://img.shields.io/badge/License-Apache_2.0-red)\n'
+//    },
+//   GPL : {
+//       badge : '![badge](https://img.shields.io/badge/License-GPLv3-green)\n'
+//   },
+//   ISC : {
+//       badge : '![badge](https://img.shields.io/badge/License-ISC-lightgreen)\n'
+//   },
+//   None :{
+//       badge : ' '
+// },
+// };
+  
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  let badge = ' ';
-  switch(license) {
-    case 'MIT':
-      badge = '![badge](https://img.shields.io/badge/License-MIT-yellow)\n';
-      break;
-      case 'Apache 2.0':
-      badge = '![badge](https://img.shields.io/badge/License-Apache_2.0-red)\n';
-      break;
-      case 'GPL v3':
-      badge = '![badge](https://img.shields.io/badge/License-GPLv3-green)\n';
-      break;
-      case 'ISC':
-      badge = '![badge](https://img.shields.io/badge/License-ISC-lightgreen)\n';
-      break;
-      case 'None':
-      badge = ' ';
-      break;
+  if (license === "MIT") {
+    licenseBadge = "![badge](https://img.shields.io/badge/License-MIT-yellow)\n";
   }
-  return badge;
-  
+  if (license === "Apache") {
+    licenseBadge = "![badge](https://img.shields.io/badge/License-Apache_2.0-red)\n";
+  }
+  if (license === "GPL") {
+    licenseBadge = "![badge](https://img.shields.io/badge/License-GPLv3-green)\n";
+  }
+  if (license === "ISC") {
+    licenseBadge = "![badge](https://img.shields.io/badge/License-ISC-lightgreen)\n";
+  }
+    else {
+    "";
+  }
 }
 
 // TODO: Create a function that returns the license link
@@ -52,12 +50,12 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
 // let userLicense = data.license;
 // let badge = renderLicenseBadge(userLicense);  
-let badge = renderLicenseBadge(data.license);
+// let badge = renderLicenseBadge(data.license);
 let content = ' '
 
-content += `# ${data.projectTitle}`
+content += `# ${data.projectTitle}
 
-content += `## Description
+## Description
 ${data.description1}
 ${data.description2}
 ${data.description3}
@@ -79,7 +77,7 @@ ${data.credits}
 
 ## License
 ${data.license}
-${badge}` 
+${renderLicenseBadge(data.license)}` 
 
 
 

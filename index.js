@@ -67,7 +67,7 @@ const questions = [
       type: 'list',
       message: 'Choose a software license for this project',
       name: 'license',
-      choices: ['MIT', 'Apache 2.0', 'GPL v3', 'ISC', 'None'],
+      choices: ['MIT', 'Apache', 'GPL', 'ISC', 'None'],
       validate: validateInput,
   },
 
