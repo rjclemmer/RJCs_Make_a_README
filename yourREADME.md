@@ -1,26 +1,26 @@
- # asdf
+ # RJCS Make A README
 
 ## Description
-sdf
-sadf
-asd
+Practice backend skills.
+So users can build a README through their terminal.
+Now users can make a README.
 
 
 ## Installation
-fasdf
+npm install
 
          
 
 ## Usage
-dsf
+node index.js/
 
 
 ## Credits
-sadf
+my miniproject notes.
 
 
 
 ## License
 MIT
 ![badge](https://img.shields.io/badge/License-MIT-yellow)
-## made by asdf
+## made by rjclemmer
