@@ -1,25 +1,26 @@
- # RJCS MAKE A README
+ # asdf
 
 ## Description
-HONING MY BACKEND SKILLS
-TO QUICKLY MAKE READMES
-IT CAN QUICKLY PUT A README TOGETHER
+sdf
+sadf
+asd
 
 
 ## Installation
-NPM I
+fasdf
 
          
 
 ## Usage
-NODE INDEX.JS
+dsf
 
 
 ## Credits
-MY MINIPORJECT NOTES
+sadf
 
 
 
 ## License
-None
-undefined## made by RJCLEMMER
+MIT
+![badge](https://img.shields.io/badge/License-MIT-yellow)
+## made by asdf

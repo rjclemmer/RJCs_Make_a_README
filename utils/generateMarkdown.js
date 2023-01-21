@@ -36,6 +36,7 @@ function renderLicenseBadge(license) {
     else {
     "";
   }
+  return licenseBadge;
 }
 
 // TODO: Create a function that returns the license link
