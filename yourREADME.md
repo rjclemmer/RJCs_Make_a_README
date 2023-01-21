@@ -1,28 +1,23 @@
-# d
-
-## Description
-d
-d
-d
+ # RJCs Make A README## Description
+To hone my skills by creating a program that would make it easy to generate a README file.
+I am learning back end skills.
+Users are able to install the program and quickly generate a README file.
 
 
 ## Installation
-d
+After cloning the repo, a user must install the package with npm install
 
-          
+         
 
 ## Usage
-d
+After installation, a user can navigate to an integrated terminal and run the program with node .index.js/
 
 
 ## Credits
-d
+I used the mini project as a template.
+
 
 
 ## License
-MIT 
-renderLicenseBadge(data.license);
-
-
-## made by dd
-
+None
+ ## made by rjclemmer
