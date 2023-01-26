@@ -17,6 +17,12 @@ const questions = [
       },
       {
         type: 'input',
+        message: 'What is your email?',
+        name: 'email',
+        validate: validateInput,
+      },
+      {
+        type: 'input',
         message: 'What is the name of your Project?',
         name: 'projectTitle',
         validate: validateInput,
