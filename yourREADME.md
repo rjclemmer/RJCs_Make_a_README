@@ -1,30 +1,37 @@
  # RJCs Make a README
 
 ## Description
-To hone my skills in Node JS
-So users can input README information via their command line.
-It should save time for the user by making it less of a hassle to create a README.
+To hone my skills in Node JS. 
+Users can input README information though their command line.
+It should save time by making it easy to create a README.
 
 ## Table of Contents
 -[Installation](#Installation)
+
 -[Usage](#Usage)
+
 -[Credits](#Credits)
+
 -[License](#License)
+
 -[Test](#Tests)
+
 -[Contributions](#Contributions)
+
 -[Questions](#Questions)
 
+
 ## Installation
-npm i
+npm install
 
          
 
 ## Usage
-After installation, users can run the program with node index.js
+After installation, users can run the program using 'node index.js/'
 
 
 ## Credits
-Sout out to my miniproject, Robbie and, Anthony!
+Shout out to my miniproject, Robbie, and Anthony.
 
 
 
