@@ -146,6 +146,7 @@ ${data.description3}
 -[Credits](#Credits)
 -[License](#License)
 -[Test](#Tests)
+-[Contributions](#Contributions)
 -[Questions](#Questions)
 
 ## Installation
@@ -172,6 +173,10 @@ ${renderLicenseSection(data.license)}
 ## Tests
 To run tests, run the following command:
 npm test
+
+
+## Contributions
+Is this project open to contributions? : ${data.contribtuion} 
 ` 
 
 

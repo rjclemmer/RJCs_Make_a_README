@@ -1,22 +1,30 @@
- # gdsfg
+ # RJCs Make a README
 
 ## Description
-dsfg
-dfg
-dfgd
+To hone my skills in Node JS
+So users can input README information via their command line.
+It should save time for the user by making it less of a hassle to create a README.
 
+## Table of Contents
+-[Installation](#Installation)
+-[Usage](#Usage)
+-[Credits](#Credits)
+-[License](#License)
+-[Test](#Tests)
+-[Contributions](#Contributions)
+-[Questions](#Questions)
 
 ## Installation
-fgd
+npm i
 
          
 
 ## Usage
-fg
+After installation, users can run the program with node index.js
 
 
 ## Credits
-dfg
+Sout out to my miniproject, Robbie and, Anthony!
 
 
 
@@ -40,4 +48,15 @@ Copyright 2023 undefined
     THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ";
   
-## made by sdfgdsf
+
+
+## Tests
+To run tests, run the following command:
+npm test
+
+
+## Contributions
+Is this project open to contributions? : No 
+## Questions
+This was made by rjclemmer. Any questions can be sent to clemmer.robert.j@gmail.com.
+You can find more at (https://github.com/rjclemmer

@@ -70,6 +70,13 @@ const questions = [
       validate: validateInput,
   },
   {
+    type: 'list',
+    message: 'Is your project open to contributions',
+    name: 'contribtuion',
+    choices: ['Yes', 'No'],
+    validate: validateInput,
+},
+  {
       type: 'list',
       message: 'Choose a software license for this project',
       name: 'license',
