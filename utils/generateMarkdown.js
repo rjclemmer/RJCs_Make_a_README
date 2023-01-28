@@ -141,13 +141,13 @@ ${data.description2}
 ${data.description3}
 
 ## Table of Contents
--[Installation](#Installation)
--[Usage](#Usage)
--[Credits](#Credits)
--[License](#License)
--[Test](#Tests)
--[Contributions](#Contributions)
--[Questions](#Questions)
+-[Installation](#Installation)\n
+-[Usage](#Usage)\n
+-[Credits](#Credits)\n
+-[License](#License)\n
+-[Test](#Tests)\n
+-[Contributions](#Contributions)\n
+-[Questions](#Questions)\n
 
 ## Installation
 ${data.installation}
