@@ -140,6 +140,13 @@ ${data.description1}
 ${data.description2}
 ${data.description3}
 
+## Table of Contents
+-[Installation](#Installation)
+-[Usage](#Usage)
+-[Credits](#Credits)
+-[License](#License)
+-[Test](#Tests)
+-[Questions](#Questions)
 
 ## Installation
 ${data.installation}
@@ -160,6 +167,11 @@ ${data.license}
 ${renderLicenseBadge(data.license)}
 ${renderLicenseLink(data.license)}
 ${renderLicenseSection(data.license)}
+
+
+## Tests
+To run tests, run the following command:
+npm test
 ` 
 
 
